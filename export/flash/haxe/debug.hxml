@@ -1,0 +1,22 @@
+-main ApplicationMain 
+-lib flixel
+-lib openfl
+-lib flixel-addons
+-lib flixel-ui
+-cp source
+-cp ./extern
+-D FLX_NO_FOCUS_LOST_SCREEN
+-D -Dnetwork-sandbox 
+-D tools=1.4.0
+-D FLX_NO_DEBUG
+-D NAPE_RELEASE_BUILD
+-D --no-traces
+-D FLX_RENDER_BLIT
+-D web
+-swf-version 11.8
+-swf export/flash/bin/FlxProject.swf
+-swf-header 640:280:60:000000
+-cp export/flash/haxe
+#--remap nme:flash
+#--no-inline
+-debug

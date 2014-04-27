@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="background" tilewidth="32" tileheight="32">
+  <image source="../images/block1.png" width="128" height="32"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="100" height="20">
+  <properties>
+   <property name="tileset" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0SEOgDAABMEW+P+boR5XxJKMGHPusnOMMTdcj+PF2s+gna9/oEeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16fOsGS10OdQ==
+  </data>
+ </layer>
+ <objectgroup name="spawner">
+  <object type="spawner" x="96" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="spawner" x="96" y="32" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="spawner" x="96" y="224" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="spawner" x="288" y="224" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="towerSpawner" x="576" y="32" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="signs">
+  <object name="HELL" type="text" x="416" y="128"/>
+  <object name="HELL" type="text" x="416" y="32"/>
+  <object name="S" type="text" x="768" y="32"/>
+  <object name="HELL" type="text" x="416" y="224"/>
+  <object name="U" type="text" x="768" y="64"/>
+  <object name="R" type="text" x="768" y="96"/>
+  <object name="F" type="text" x="768" y="128"/>
+  <object name="A" type="text" x="768" y="160"/>
+  <object name="C" type="text" x="768" y="192"/>
+  <object name="E" type="text" x="768" y="224"/>
+ </objectgroup>
+ <objectgroup name="collider">
+  <properties>
+   <property name="collide" value=""/>
+  </properties>
+  <object type="collider" x="544" y="0" width="96" height="96">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+  <object name="endgame" type="collider" x="800" y="0" width="416" height="576"/>
+  <object type="collider" x="608" y="160" width="64" height="32" rotation="-0.0784531">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+  <object type="collider" x="544" y="288" width="96" height="96" rotation="-0.0784531">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+  <object type="collider" x="608" y="384" width="96" height="96" rotation="-0.0784531">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+  <object type="collider" x="544" y="512" width="96" height="96" rotation="-0.0784531">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+  <object type="collider" x="576" y="224" width="64" height="32" rotation="-0.0784531">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+  <object type="collider" x="640" y="96" width="64" height="32" rotation="-0.0784531">
+   <properties>
+    <property name="collide" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<text id="title" x="0" y="5" width="back.width" text="You need the internet to play" align="left">
+		<anchor x="back.left" x-flush="left" y="back.top" y-flush="top"/>		
+	</text>
+	
+	<button x="0" y="20" id="button_connect" use_def="text_button" label="Play" align="left">
+		<param type="string" value="button_connect"/>
+	</button>
+	
+	<text id="title2" x="350" y="40" width="250" text="Infinite Hell Loop" align="center" size="50" style="bold" color="0xffffff" outline="0xaa0000">
+		<anchor x="back.left" x-flush="left" y="back.top" y-flush="top"/>		
+	</text>
+	
+	<text id="title3" x="420" y="240" width="back.width" text="@ricklesauceur #LD48" align="left" color="0x55ffff" size="12">
+		<anchor x="back.left" x-flush="left" y="back.top" y-flush="top"/>		
+	</text>
+	
+</data>

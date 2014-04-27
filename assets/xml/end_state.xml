@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<text id="title2" x="350" y="40" width="250" text="Infinite Hell Loop" align="center" size="50" style="bold" color="0xffffff" outline="0xaa0000">
+		<anchor x="back.left" x-flush="left" y="back.top" y-flush="top"/>		
+	</text>
+	
+	<text id="title3" x="420" y="240" width="back.width" text="@ricklesauceur #LD48" align="left" color="0x55ffff" size="12">
+		<anchor x="back.left" x-flush="left" y="back.top" y-flush="top"/>		
+	</text>
+	
+</data>
